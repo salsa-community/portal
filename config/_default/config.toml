@@ -14,6 +14,6 @@ googleAnalytics = "" # example : UA-123-45
 [markup.goldmark.renderer]
 unsafe = true
 
-
+primary_font = "Montserrat:wght@200;300"
 primary_font_type = "sans-serif" # [serif/sans-serif]
 icon_font = "Font Awesome 5 Free"

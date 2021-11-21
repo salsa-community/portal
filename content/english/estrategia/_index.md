@@ -4,11 +4,7 @@ tags:
   - estrategia
 ---
 
-<b-img
-      src="/assets/img/estrategia/banner.svg"
-      fluid
-      alt="Responsive image"
-    ></b-img>
+![](/img/estrategia/banner.svg)
 
 # Introducción
 

@@ -5,37 +5,83 @@ url = "/"
 weight = 1
 
 [[main]]
-name = "Blog"
-url = "blog"
+name = "Salsa"
 weight = 2
+hasChildren = true
+  [[main]]
+  parent = "Salsa"
+  name = "Paradigmas"
+  url = "/habilitadores/paradigmas"
+  weight = 1
+  [[main]]
+  parent = "Salsa"
+  name = "Prácticas"
+  url = "/habilitadores/practicas"
+  weight = 2
+  [[main]]
+  parent = "Salsa"
+  name = "Tecnología"
+  url = "/habilitadores/tecnologia"
+  weight = 3
+  [[main]]
+  parent = "Salsa"
+  name = "Talento"
+  url = "/organizacion"
+  weight = 4
 
 [[main]]
-name = "Pricing"
-url = "pricing"
+name = "Lineamientos"
 weight = 3
-
-[[main]]
-name = "Contact"
-url = "contact"
-weight = 4
-
-[[main]]
-name = "FAQ"
-url = "faq"
-weight = 5
+hasChildren = true
+  [[main]]
+  parent = "Lineamientos"
+  name = "Git"
+  url = "/guidelines/git/"
+  weight = 1
+  [[main]]
+  parent = "Lineamientos"
+  name = "Bases de datos"
+  url = "/guidelines/database/"
+  weight = 2
+  [[main]]
+  parent = "Lineamientos"
+  name = "Java"
+  url = "/guidelines/java/"
+  weight = 3
+  [[main]]
+  parent = "Lineamientos"
+  name = "Javascript"
+  url = "guidelines/javascript/"
+  weight = 4
+  [[main]]
+  parent = "Lineamientos"
+  name = "Python"
+  url = "guidelines/python/"
+  weight = 5
+  [[main]]
+  parent = "Lineamientos"
+  name = "APIs"
+  url = "guidelines/rest/"
+  weight = 6
+  [[main]]
+  parent = "Lineamientos"
+  name = "Typescript"
+  url = "guidelines/typescript/"
+  weight = 7
+  [[main]]
+  parent = "Lineamientos"
+  name = "Contribuir"
+  url = "guidelines/contribute/"
+  weight = 8
 
 # footer menu left
 [[footer_left]]
-name = "About Us"
-url = "#"
+name = "Proyecto SALSA"
+url = "/estrategia/"
 
 [[footer_left]]
-name = "Quick Start"
-url = "#"
-
-[[footer_left]]
-name = "Pricing"
-url = "pricing"
+name = "Cómo contribuir"
+url = "/guidelines/contribute/"
 
 
 # footer menu middle
