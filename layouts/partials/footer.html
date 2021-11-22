@@ -1,0 +1,33 @@
+<footer class="bg-light section pb-0">
+  <div class="container">
+    <div class="row">
+      <div class="text-center">
+        <a class="d-block h3 mb-3" href="{{ site.BaseURL | absLangURL}}">
+          {{ with site.Params.logo}}
+          <img
+            width="{{site.Params.logo_width}}"
+            class="img-fluid"
+            src="{{ . | relURL }}"
+            alt="{{ site.Title }}"
+          />
+          {{ else }}{{site.Title}}{{end}}
+        </a>
+        <p class="mb-4">{{ site.Params.footer_content | markdownify }}</p>
+        {{ with site.Params.social }}
+        <ul class="list-inline social-icons">
+          {{ range . }}
+          <li class="list-inline-item">
+            <a href="{{ .link | safeURL }}" title="{{ .title }}"
+              ><i class="{{ .icon }}"></i
+            ></a>
+          </li>
+          {{ end }}
+        </ul>
+        {{ end }}
+      </div>
+    </div>
+    <div class="border-top border-default text-center py-4 mt-4">
+      <small class="content">{{ site.Params.Copyright | markdownify }}</small>
+    </div>
+  </div>
+</footer>

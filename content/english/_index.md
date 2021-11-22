@@ -3,7 +3,7 @@
 banner:
   title: "Proyecto Salsa"
   image: "images/banner-art.svg"
-  content: "Iniciativa abierta para la gobernabilidad e innovación tecnológica en gobierno"
+  content: "**SALSA**, es un movimiento tecnológico y revolucionario surgido en el interior del **CONACyT** cuyo objetivo es establecer una utopía entre el talento, tecnología, procesos, burocracia y necesidades de valor de la organización a través de la transformación organizacional para cambiar el _status quo_ establecido y cambiarlo por un ambiente más innovador y con mayor agilidad."
   button:
     enable: true
     label: "Ver estrategia"

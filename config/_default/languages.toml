@@ -1,14 +1,14 @@
 ############################# English ############################
 [en]
 languageName = "En"
-title = "Bigspring Hugo"
+title = "Salsa"
 contentDir = "content/english" # content/english
 weight = 1
 ########### footer content ##########
 footer_menu_left = "Company"
 footer_menu_middle = "Product"
 footer_menu_right = "Support"
-footer_content = "Lorem ipsum dolor sit amet, consectetur elit. Consjat tristique eget amet, tempus eu at cttur."
+footer_content = "Contactanos a través de nuestros diferentes canales y conoce más sobre esta iniciativa, de la cual puedes ser parte si te interesa el desarrollo de software, participa añadiendo material, tutoriales, cursos, videos y aportaciones a nuestras herramientas de código abierto"
 # copyright
 copyright = "[CONACYT](https://conacyt.mx/) 2021"
 
@@ -17,7 +17,7 @@ copyright = "[CONACYT](https://conacyt.mx/) 2021"
 ############################# Deutsch ############################
 [de]
 languageName = "De"
-title = "Bigspring Hugo"
+title = "Salsa"
 contentDir = "content/deutsch" # content/german
 weight = 2
 ########### footer content ##########

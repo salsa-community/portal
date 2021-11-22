@@ -1,4 +1,5 @@
 #################### default parameters ################################
+favicon = "favicon.png"
 logo = "images/logo-hexagonal.png"
 logo_width = "200px"
 # OpenGraph / Twitter Card metadata
@@ -19,7 +20,7 @@ preloader = "" # use jpg, png, svg or gif format.
 # Navigation buttons
 [navigation_button]
 enable = true
-label = "ver estrategia"
+label = "roadmap"
 link = "estrategia"
 
 # cookies
@@ -31,21 +32,16 @@ button = "I Accept"
   
 ############################# social site ########################
 [[social]]
-title = "facebook"
-icon = "fab fa-facebook" # themify icon : https://themify.me/themify-icons
-link = "#"
+title = "Github"
+icon = "fab fa-github" # themify icon : https://themify.me/themify-icons
+link = "https://github.com/salsa-community"
 
 [[social]]
-title = "twitter"
-icon = "fab fa-twitter" # themify icon : https://themify.me/themify-icons
-link = "#"
+title = "Discourse"
+icon = "fab fa-discourse" # themify icon : https://themify.me/themify-icons
+link = "https://forum.crip.conacyt.mx/"
 
 [[social]]
-title = "skype"
-icon = "fab fa-skype" # themify icon : https://themify.me/themify-icons
-link = "#"
-
-[[social]]
-title = "linkedin"
-icon = "fab fa-linkedin" # themify icon : https://themify.me/themify-icons
-link = "#"
+title = "Rocketchat"
+icon = "fab fa-rocketchat" # themify icon : https://themify.me/themify-icons
+link = "https://chat.crip.conacyt.mx/channel/Salsa/"
