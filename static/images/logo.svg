@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="114mm"
+   height="38mm"
+   viewBox="0 0 114 38"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (1:1.1+202109281949+c3084ef5ed)"
+   sodipodi:docname="logo.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.0633188"
+     inkscape:cx="311.75976"
+     inkscape:cy="208.31006"
+     inkscape:window-width="1848"
+     inkscape:window-height="1016"
+     inkscape:window-x="72"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <style
+       id="style894">
+      @font-face {
+        font-family: &quot;Virgil&quot;;
+        src: url(&quot;https://excalidraw.com/Virgil.woff2&quot;);
+      }
+      @font-face {
+        font-family: &quot;Cascadia&quot;;
+        src: url(&quot;https://excalidraw.com/Cascadia.woff2&quot;);
+      }
+    </style>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g927"
+       transform="matrix(0.31148349,0,0,0.30338594,-1.0750301,-5.702467)">
+      <g
+         stroke-linecap="round"
+         id="g904">
+        <g
+           transform="rotate(-89.652173,33.830472,23.482279)"
+           fill-rule="evenodd"
+           id="g902">
+          <path
+             d="m -23.6,0 57.04,35.01 v 70.02 L -23.6,140.04 -80.63,105.03 V 35.01 L -23.6,0"
+             stroke="none"
+             stroke-width="0"
+             fill="#74bb92"
+             fill-rule="evenodd"
+             id="path898" />
+          <path
+             d="M -23.6,0 C -5.21,11.28 13.17,22.57 33.44,35.01 M -23.6,0 C -9.77,8.49 4.06,16.98 33.44,35.01 m 0,0 c 0,14.06 0,28.12 0,70.02 m 0,-70.02 c 0,17.65 0,35.31 0,70.02 m 0,0 C 14.62,116.58 -4.2,128.13 -23.6,140.04 M 33.44,105.03 C 11.8,118.32 -9.84,131.6 -23.6,140.04 m 0,0 c -11.85,-7.27 -23.7,-14.54 -57.03,-35.01 m 57.03,35.01 c -14.01,-8.6 -28.02,-17.2 -57.03,-35.01 m 0,0 c 0,-19.11 0,-38.22 0,-70.02 m 0,70.02 c 0,-25.26 0,-50.52 0,-70.02 m 0,0 C -65.21,25.54 -49.79,16.08 -23.6,0 M -80.63,35.01 C -63.04,24.21 -45.45,13.42 -23.6,0 m 0,0 c 0,0 0,0 0,0 m 0,0 c 0,0 0,0 0,0"
+             stroke="#74bb92"
+             stroke-width="4"
+             fill="none"
+             id="path900" />
+        </g>
+      </g>
+      <g
+         transform="translate(38.171493,10)"
+         id="g908">
+        <text
+           x="0"
+           y="114.92563"
+           font-family="Helvetica, 'Segoe UI Emoji'"
+           font-size="125.348px"
+           fill="#ffffff"
+           text-anchor="start"
+           style="white-space:pre"
+           direction="ltr"
+           id="text906">S</text>
+      </g>
+      <g
+         transform="translate(144.68536,43.627077)"
+         id="g912">
+        <text
+           x="0"
+           y="96.193024"
+           font-family="Helvetica, 'Segoe UI Emoji'"
+           font-size="104.821px"
+           fill="#74bb92"
+           text-anchor="start"
+           style="white-space:pre"
+           direction="ltr"
+           id="text910">alsa</text>
+      </g>
+    </g>
+  </g>
+</svg>
