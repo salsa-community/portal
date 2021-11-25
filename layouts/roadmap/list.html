@@ -2,28 +2,36 @@
 
 <section class="time-line-component timeline">
   <div class="container">
-    {{range $index, $val := .Params.timeline}}
+    {{ site.Data.meses }}
+    {{range $index, $val := sort .Params.timeline "eventdate" "desc"}} {{$side
+    :=`fadeInRight`}} {{if eq (mod $index 2) 0}} {{$side =`fadeInLeft`}} {{end}}
     <div class="timeline-item">
       <div class="timeline-img"></div>
-      {{$side :=`fadeInRight`}}
-      {{if eq (mod $index 2)  0}}
-      {{$side =`fadeInLeft`}}
-      {{end}}
       {{ if .imagen }}
       <div class="timeline-content timeline-card js--{{$side}}">
         <div class="timeline-img-header">
           <h2>{{.title}}</h2>
         </div>
-        <div class="date">{{.eventdate}}</div>
+        <div class="date">{{ .eventdate | dateFormat ":date_long"}}</div>
+        {{if .quotes }}
+        <blockquote>{{.text}}</blockquote>
+        {{else}}
         <p>{{.text}}</p>
+        {{end}} {{if .link}}
         <a class="bnt-more" href="{{.link}}">ver más</a>
+        {{end}}
       </div>
       {{else }}
       <div class="timeline-content js--{{$side}}">
         <h2>{{.title}}</h2>
-        <div class="date">{{.eventdate}}</div>
+        <div class="date">{{.eventdate | dateFormat ":date_long" }}</div>
+        {{if .quotes }}
+        <blockquote>{{.text}}</blockquote>
+        {{else}}
         <p>{{.text}}</p>
+        {{end}} {{if .link}}
         <a class="bnt-more" href="{{.link}}">ver más</a>
+        {{end}}
       </div>
 
       {{ end }}
