@@ -14,7 +14,6 @@
 // Roadmap component
 
 $text: #ffffff;
-$secondary-text: #757575;
 $accent: #ff4081;
 
 .timeline {
@@ -115,13 +114,18 @@ $accent: #ff4081;
   }
 
   .date {
-    background: $accent;
+    background: $primary-color;
     display: inline-block;
     color: $text;
     padding: 10px;
     position: absolute;
     top: 0;
     right: 0;
+  }
+  .date.pre-release {
+    background: $light !important;
+    color: $primary-color;
+    border-width: 2px;
   }
 }
 
@@ -134,6 +138,12 @@ $accent: #ff4081;
   left: 50%;
   margin-top: 25px;
   margin-left: -15px;
+}
+
+.timeline-img.pre-release {
+  border-style: dashed;
+  border-color: $primary-color;
+  background: $light !important;
 }
 
 .timeline-card {

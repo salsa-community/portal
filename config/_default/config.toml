@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "http://examplesite.org/"
+baseURL = "https://salsa.crip.conacyt.mx/"
 title = "Bigspring Light"
 theme = "bigspring-light"
 # post pagination
