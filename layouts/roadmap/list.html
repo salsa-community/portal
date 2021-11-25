@@ -1,4 +1,5 @@
-{{ define "main" }} 
-{{ partial "roadmap/page-header.html" .Site.Data.roadmap.sni }} 
-{{ partial "roadmap/main.html" .Site.Data.roadmap.sni }} 
+{{ define "main" }}
+{{$roadmap := index .Site.Data.roadmap .Params.roadmap}} 
+{{ partial "roadmap/page-header.html" $roadmap }}
+{{ partial "roadmap/main.html" $roadmap }} 
 {{ end }}

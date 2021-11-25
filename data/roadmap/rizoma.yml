@@ -1,0 +1,51 @@
+title: "Roadmap para Rizoma"
+subtitle: "Principales acontecimiento"
+timeline:
+  - title: Diseño visual
+    text: Propuesta visual para la plataforma de Rizoma
+    eventdate: 2021-11-10
+    prerelease: FALSE
+  - title: Demo del diseño
+    text: Versión demo de la propuesta visual
+    eventdate: 2021-11-17
+    prerelease: FALSE
+  - title: Optimización
+    text: Optimización de campos para el perfil de usuario; validado por los expertos
+    eventdate: 2022-01-22
+    prerelease: TRUE
+  - title: Rizoma 0.1
+    text: Perfil de usuario con las principales secciones y campos
+    eventdate: 2022-02-05
+    prerelease: TRUE
+  - title: Mobile 1.0
+    text: Primera versión Mobile de Rizoma
+    eventdate: 2022-03-31
+    prerelease: TRUE
+  - title: Migración CVU
+    text: Migración de información del CVU
+    eventdate: 2022-04-30
+    prerelease: TRUE
+  - title: Rizoma 1.0
+    text: Primera versión productiva del perfil de usuario de Rizoma
+    eventdate: 2022-05-14
+    prerelease: TRUE
+  - title: Rizoma 3.0
+    text: Aplicación de la tecnica de ludificación para el llenado de campos
+    eventdate: 2022-06-30
+    prerelease: TRUE
+  - title: Rizoma 4.0
+    text: Aplicación de la tecnica de ludificación para el llenado de campos
+    eventdate: 2022-07-01
+    prerelease: TRUE
+  - title: Rizoma 5.0
+    text: Aplicación de la tecnica de ludificación para el llenado de campos
+    eventdate: 2022-07-02
+    prerelease: TRUE
+  - title: Rizoma 6.0
+    text: Aplicación de la tecnica de ludificación para el llenado de campos
+    eventdate: 2022-07-03
+    prerelease: TRUE
+  - title: Rizoma 7.0
+    text: Aplicación de la tecnica de ludificación para el llenado de campos
+    eventdate: 2022-07-04
+    prerelease: TRUE

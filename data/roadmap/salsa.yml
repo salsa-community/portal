@@ -1,17 +1,43 @@
 title: "Roadmap para Salsa"
 subtitle: "principales acontecimiento"
 timeline:
-  - title: "salsa"
-    eventdate: 2021-04-18
-    text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione omnis alias cupiditate saepe atque totam aperiam sed nulla voluptatem recusandae dolor, nostrum excepturi amet in dolores. Alias, ullam."
-  - title: "Astucia"
-    eventdate: 2020-04-18
-    text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione omnis alias cupiditate saepe atque totam aperiam sed nulla voluptatem recusandae dolor, nostrum excepturi amet in dolores. Alias, ullam."
-  - title: "Keycloak"
-    eventdate: 2022-04-18
-    prerelease: true
-    text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione omnis alias cupiditate saepe atque totam aperiam sed nulla voluptatem recusandae dolor, nostrum excepturi amet in dolores. Alias, ullam."
-  - title: "Keycloak"
-    eventdate: 2023-04-18
-    text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione omnis alias cupiditate saepe atque totam aperiam sed nulla voluptatem recusandae dolor, nostrum excepturi amet in dolores. Alias, ullam."
-    prerelease: true
+  - title: Evaluación 2.0
+    text: Recomendador de evaluadores basado  en palabras claves y áreas de conocimiento de un proyecto o un proponente.
+    eventdate: 2021-07-02
+    prerelease: FALSE
+  - title: Evaluación 2.1
+    text: Se crea componente reutilizable para la recomendación de evaluadores, de tal manera que se pueda integrar en varios sistemas de SALSA. Esta versión no integra interfaz gráfica.
+    eventdate: 2021-08-28
+    prerelease: FALSE
+  - title: Posdoctorado 1.0
+    text: Se libera componente reutilizable para los sistemas de solicitude de posdoctorado, de tal manera que se puedan soportar más tipos de convocatorias. Esta versión no incluye posdoctorado en el extranjero
+    eventdate: 2021-05-07
+    prerelease: FALSE
+  - title: Formalización 2.0
+    text: Se agrega soporte para formalizar convenios gen
+    eventdate: 2021-03-20
+    prerelease: FALSE
+  - title: Nómina 1.0
+    text: Se agrega componente de nómina para posdoctorado
+    eventdate: 2021-02-20
+    prerelease: FALSE
+  - title: Votaciones 1.0
+    text: Plataforma de votaciones para el SNI
+    eventdate: 2021-02-27
+    prerelease: FALSE
+  - title: Votaciones 2.0
+    text: Actualizaciones a la plataforma de votaciones para que acepte nuevo flujo de aprobación
+    eventdate: 2021-03-20
+    prerelease: FALSE
+  - title: Nomina 2.0
+    text: Se agregan funcionalidades para soportar las operaciones de seguimiento del área de becas sobre las nóminas
+    eventdate: 2021-06-18
+    prerelease: FALSE
+  - title: Seguimiento 1.0
+    text: Se crea el componente transversal de seguimiento a proyectos, en su versión técnica.
+    eventdate: 2021-06-18
+    prerelease: FALSE
+  - title: Seguimiento 1.0
+    text: Se crea el componente transversal de seguimiento a proyectos, en su versión técnica.
+    eventdate: 2021-12-18
+    prerelease: TRUE
