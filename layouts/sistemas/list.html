@@ -1,5 +1,3 @@
 {{ define "main" }} {{ partial "page-header.html" . }}
-<object class="roadmap" type="image/svg+xml" data="/img/rizoma/rizoma.svg">
-  <img src="/img/rizoma/rizoma.svg" />
-</object>
+<img class="roadmap" src="{{.Params.imageurl}}" />
 {{ end }}
