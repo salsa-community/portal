@@ -1,9 +1,19 @@
 <section class="timeline">
   <div class="container">
-    {{range $index, $val := sort .timeline "eventdate" "asc"}} {{$side
+
+    {{$roadmap:= .Scratch.Get "roadmap"}}
+    {{$meses:= .Scratch.Get "meses"}}
+
+    {{range $index, $val := sort $roadmap.timeline "eventdate" "asc"}} {{$side
     :=`fadeInRight`}} {{if eq (mod $index 2) 0}} {{$side =`fadeInLeft`}} {{end}}
     {{$prerelease :=``}} {{if .prerelease }} {{$prerelease =`pre-release`}}
     {{end}}
+
+
+    {{$eventDateTime := time .eventdate}}
+    {{$monthindex := printf "%d" $eventDateTime.Month}}
+    {{$month:= index $meses $monthindex}}
+  
     <div class="timeline-item">
       <div class="timeline-img {{$prerelease}}"></div>
       {{ if .imagen }}
@@ -12,7 +22,7 @@
           <h2>{{.title}}</h2>
         </div>
         <div class="date {{$prerelease}}">
-          {{ .eventdate | dateFormat ":date_long"}}
+          {{$eventDateTime.Day}} de {{$month}} - {{$eventDateTime.Year}}
         </div>
         {{if .quotes }}
         <blockquote>{{.text}}</blockquote>
@@ -26,7 +36,7 @@
       <div class="timeline-content js--{{$side}}">
         <h2>{{.title}}</h2>
         <div class="date {{$prerelease}}">
-          {{.eventdate | dateFormat ":date_long" }}
+          {{$eventDateTime.Day}} de {{$month}} - {{$eventDateTime.Year}}
         </div>
         {{if .quotes }}
         <blockquote>{{.text}}</blockquote>

@@ -1,5 +1,7 @@
 {{ define "main" }}
 {{$roadmap := index .Site.Data.roadmap .Params.roadmap}} 
 {{ partial "roadmap/page-header.html" $roadmap }}
-{{ partial "roadmap/main.html" $roadmap }} 
+{{ .Scratch.Set "meses" .Site.Data.meses }}
+{{ .Scratch.Set "roadmap"  $roadmap }}
+{{ partial "roadmap/main.html" . }}
 {{ end }}
