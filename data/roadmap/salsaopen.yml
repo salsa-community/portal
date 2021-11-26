@@ -1,43 +1,55 @@
 title: "Infraestructura de desarrollo SALSA"
 subtitle: "Roadmap de infraestructura para SALSA"
 timeline:
-  - title: Evaluación 2.0
-    text: Recomendador de evaluadores basado  en palabras claves y áreas de conocimiento de un proyecto o un proponente.
-    eventdate: 2021-07-02
+  - title: Gestión de Código
+    text: Nos migramos Gitlab, herramienta para la gestión de código
+    eventdate: 2021-01-29
     prerelease: FALSE
-  - title: Evaluación 2.1
-    text: Se crea componente reutilizable para la recomendación de evaluadores, de tal manera que se pueda integrar en varios sistemas de SALSA. Esta versión no integra interfaz gráfica.
-    eventdate: 2021-08-28
+  - title: Calidad de código
+    text: Herramienta Sonarqube, para el análisis estático de código
+    eventdate: 2021-02-12
     prerelease: FALSE
-  - title: Posdoctorado 1.0
-    text: Se libera componente reutilizable para los sistemas de solicitude de posdoctorado, de tal manera que se puedan soportar más tipos de convocatorias. Esta versión no incluye posdoctorado en el extranjero
-    eventdate: 2021-05-07
+  - title: Documentos
+    text: Nexcloud, como herramienta para la gestión de documentos de los equipos de trabajo
+    eventdate: 2021-02-26
     prerelease: FALSE
-  - title: Formalización 2.0
-    text: Se agrega soporte para formalizar convenios gen
-    eventdate: 2021-03-20
+  - title: Radar tecnológico
+    text: Primera versión del radar tecnológico del CONACYT
+    eventdate: 2021-03-05
     prerelease: FALSE
-  - title: Nómina 1.0
-    text: Se agrega componente de nómina para posdoctorado
-    eventdate: 2021-02-20
+  - title: Contenedores
+    text: Adopción de la herramienta Harbor para la administración de contenedores y servicios
+    eventdate: 2021-04-16
     prerelease: FALSE
-  - title: Votaciones 1.0
-    text: Plataforma de votaciones para el SNI
-    eventdate: 2021-02-27
+  - title: Tutoriales
+    text: Herramienta interactiva para para publicar tutoriales para la comunidad de desarrollo de software de la CRIP
+    eventdate: 2021-05-28
     prerelease: FALSE
-  - title: Votaciones 2.0
-    text: Actualizaciones a la plataforma de votaciones para que acepte nuevo flujo de aprobación
-    eventdate: 2021-03-20
+  - title: Automatización de despliegues
+    text: Publicación de la herramienta Drone para la automatización de despliegues a ambientes de desarrollo, calidad y producción
+    eventdate: 2021-06-25
     prerelease: FALSE
-  - title: Nomina 2.0
-    text: Se agregan funcionalidades para soportar las operaciones de seguimiento del área de becas sobre las nóminas
-    eventdate: 2021-06-18
+  - title: Repositorio de componentes
+    text: Adopción de la herramienta Nexus para la administración de componentes reutilizables
+    eventdate: 2021-07-31
     prerelease: FALSE
-  - title: Seguimiento 1.0
-    text: Se crea el componente transversal de seguimiento a proyectos, en su versión técnica.
-    eventdate: 2021-06-18
+  - title: Gestión de APIs
+    text: Herramienta para la administración de APIs internas y externas del CONACYT
+    eventdate: 2021-08-27
     prerelease: FALSE
-  - title: Seguimiento 1.0
-    text: Se crea el componente transversal de seguimiento a proyectos, en su versión técnica.
-    eventdate: 2021-12-18
+  - title: Gestión de proyectos
+    text: Herramienta Taiga para la gestión de proyectos de desarrollo de softwrae de la CRIP
+    eventdate: 2021-09-30
+    prerelease: FALSE
+  - title: Portal SALSA
+    text: Primera versión del portal de SALSA para la comunicación interna y con los equipos
+    eventdate: 2021-10-22
+    prerelease: FALSE
+  - title: Chat organizacional
+    text: Instalación de Rocket Chat para las comunicaciones internas de la CRIP
+    eventdate: 2021-11-05
+    prerelease: FALSE
+  - title: Foro SALSA
+    text: Foro de discusión interno con los colaboradores de la CRIP
+    eventdate: 2021-12-17
     prerelease: TRUE

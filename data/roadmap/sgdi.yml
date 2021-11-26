@@ -1,6 +1,27 @@
 title: "Sistema de archivos"
 subtitle: "Roadmap del sistema de archivos"
 timeline:
-  - title: "SNI"
-    eventdate: 2021-04-18
-    text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione omnis alias cupiditate saepe atque totam aperiam sed nulla voluptatem recusandae dolor, nostrum excepturi amet in dolores. Alias, ullam."
+  - title: Estrategia
+    text: Propuesta de la estrategia de trabajo e integración del sistema de archivos
+    eventdate: 2021-09-24
+    prerelease: FALSE
+  - title: Proceso
+    text: Primera propuesta del proceso unificado del Sistema de Archivos para CONACYT
+    eventdate: 2021-12-11
+    prerelease: TRUE
+  - title: Plataforma 1.0
+    text: Primera versión productiva del sistema de archivos
+    eventdate: 2022-07-29
+    prerelease: TRUE
+  - title: Plataforma 2.0
+    text: Mejoras al sistema de archivos del CONACYT
+    eventdate: 2022-08-31
+    prerelease: TRUE
+  - title: Plataforma 3.0
+    text: Mejoras al sistema de archivos del CONACYT
+    eventdate: 2022-09-30
+    prerelease: TRUE
+  - title: Plataforma 4.0
+    text: Mejoras al sistema de archivos del CONACYT
+    eventdate: 2022-10-29
+    prerelease: TRUE

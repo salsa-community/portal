@@ -1,12 +1,16 @@
 title: "SNI"
 subtitle: "Principales acontecimiento en SNI"
 timeline:
+  - title: Acreditaciones
+    text: Optimización al catálogo de instituciones
+    eventdate: 2022-01-01
+    prerelease: TRUE
   - title: Registro
-    text: Sincronizar información con el PRODEP
-    eventdate: 2022-02-12
+    text: Sincronizar información con el PRODEP de la SEP
+    eventdate: 2022-04-22
     prerelease: TRUE
   - title: Evaluación
-    text: Perfil de usuario para difentes presentaciones resumen simple resumen de evaluación, entre otros
+    text: Perfil de usuario para difentes presentaciones resumen simple, resumen de evaluación, entre otros
     eventdate: 2022-03-31
     prerelease: TRUE
   - title: Evaluación
@@ -15,7 +19,7 @@ timeline:
     prerelease: TRUE
   - title: Acreditaciones
     text: Módulo para agregar instituciones desde la vista del operador
-    eventdate: 2022-01-19
+    eventdate: 2022-03-31
     prerelease: TRUE
   - title: Cálculo
     text: Integración del módulo de cálculo

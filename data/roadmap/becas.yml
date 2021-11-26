@@ -1,7 +1,7 @@
 title: "Becas 4.0"
 subtitle: "Roadmap de becas"
 timeline:
-  - title: Auto registro
+  - title: Autoregistro
     text: Se podrá dar de alta un becario sin la intervención del coordinador
     eventdate: 2022-06-25
     prerelease: TRUE
@@ -10,14 +10,10 @@ timeline:
     eventdate: 2022-06-25
     prerelease: TRUE
   - title: Usabilidad 1.0
-    text: Mejora visual para becas Nacionales utilizando SALSA
+    text: Mejora visual para becas Nacionales
     eventdate: 2022-01-29
     prerelease: TRUE
-  - title: Usabilidad 2.0
-    text: Mejora visual para Becas en el extranjero utilizando SALSA
-    eventdate: 2022-02-26
-    prerelease: TRUE
-  - title: Usabilidad 3.0
-    text: Mejora visual para becas de vinculación utilizando SALSA
-    eventdate: 2022-03-31
+  - title: SNP
+    text: Adecuación del SNP para registrar posibles becarios
+    eventdate: 2022-03-25
     prerelease: TRUE

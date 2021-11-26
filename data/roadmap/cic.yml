@@ -1,6 +1,15 @@
 title: "Catálogo de Infraestructura Científica"
 subtitle: "Roadmap de infraestructura científica"
 timeline:
-  - title: "SNI"
-    eventdate: 2021-04-18
-    text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione omnis alias cupiditate saepe atque totam aperiam sed nulla voluptatem recusandae dolor, nostrum excepturi amet in dolores. Alias, ullam."
+  - title: Propuesta gráfica
+    text: Propuesta gráfica del nuevo catálogo de infraestructura científica
+    eventdate: 2022-01-29
+    prerelease: TRUE
+  - title: Catálogo 2.0
+    text: El catálogo de infrestructura cientifica, deberá de ser expuesto en SALSA y visible para todo los sistemas del CONACYT
+    eventdate: 2022-05-21
+    prerelease: TRUE
+  - title: Migración
+    text: Migrar el catálogo de infraestructura científica a la versión 2.0
+    eventdate: 2022-05-28
+    prerelease: TRUE

@@ -1,14 +1,38 @@
 title: "Roadmap de Rizoma"
 subtitle: "Roadmap de Rizoma"
 timeline:
-  - title: Diseño visual
+  - title: Identidad gráfica
     text: Propuesta visual para la plataforma de Rizoma
-    eventdate: 2021-11-10
+    eventdate: 2021-10-12
+    prerelease: FALSE
+  - title: Analisis de perfil de usuario
+    text: Determinar con base en la información los perfiles de usuario y presentar
+    eventdate: 2021-10-12
     prerelease: FALSE
   - title: Demo del diseño
     text: Versión demo de la propuesta visual
-    eventdate: 2021-11-17
+    eventdate: 2021-12-17
+    prerelease: TRUE
+  - title: "Arquitectura de Rizoma\n"
+    text: Defiinir la arquitectura base de Rizoma
+    eventdate: 2021-10-18
     prerelease: FALSE
+  - title: "Infraestructura de desarrollo y QA\n"
+    text: Definir la infraestructura de los ambientes de desarrollo y QA
+    eventdate: 2021-10-18
+    prerelease: FALSE
+  - title: Conformación de CAEC
+    text: Definir personas, roles y responsabilidades del CAEC (Comité de análisis y evaluación de cambios de Rizoma)
+    eventdate: 2021-12-03
+    prerelease: TRUE
+  - title: Mobile 1.0
+    text: Primera versión Mobile de Rizoma
+    eventdate: 2021-12-15
+    prerelease: TRUE
+  - title: "Matriz de campos del perfil\n"
+    text: Recolectar los campos que integran el Perfil de usuario, y sus reglas de negocio
+    eventdate: 2022-01-14
+    prerelease: TRUE
   - title: Optimización
     text: Optimización de campos para el perfil de usuario; validado por los expertos
     eventdate: 2022-01-22
@@ -17,13 +41,9 @@ timeline:
     text: Perfil de usuario con las principales secciones y campos
     eventdate: 2022-02-05
     prerelease: TRUE
-  - title: Mobile 1.0
-    text: Primera versión Mobile de Rizoma
-    eventdate: 2022-03-31
-    prerelease: TRUE
   - title: Migración CVU
     text: Migración de información del CVU
-    eventdate: 2022-04-30
+    eventdate: 2022-04-29
     prerelease: TRUE
   - title: Rizoma 1.0
     text: Primera versión productiva del perfil de usuario de Rizoma

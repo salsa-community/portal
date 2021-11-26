@@ -1,6 +1,27 @@
 title: "Sistema de encuesta"
 subtitle: "Roadmap del sistema de encuesta"
 timeline:
-  - title: "SNI"
-    eventdate: 2021-04-18
-    text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione omnis alias cupiditate saepe atque totam aperiam sed nulla voluptatem recusandae dolor, nostrum excepturi amet in dolores. Alias, ullam."
+  - title: Sistema de Encuesta Web
+    text: Puesta en producción del sistema de Encuesta Web
+    eventdate: 2021-09-30
+    prerelease: FALSE
+  - title: Demo con usuarios
+    text: Demo del sistema de encuesta con la CIBIGEM
+    eventdate: 2021-10-23
+    prerelease: FALSE
+  - title: Prueba de concepto
+    text: Encuesta de seguridad para la CRIP
+    eventdate: 2021-10-15
+    prerelease: FALSE
+  - title: Encuesta CIDE
+    text: Cédula Individual de Evaluación a los Aspirantes a la Titularidad del CIDE A.C
+    eventdate: 2021-11-03
+    prerelease: FALSE
+  - title: Encuesta glifosato
+    text: Demo primera versión Mobile
+    eventdate: 2021-12-03
+    prerelease: TRUE
+  - title: Mobile 1.0
+    text: Primera versión Mobile para la Encuesta
+    eventdate: 2021-12-15
+    prerelease: TRUE

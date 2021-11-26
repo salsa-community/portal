@@ -37,7 +37,11 @@ timeline:
     text: Se crea el componente transversal de seguimiento a proyectos, en su versión técnica.
     eventdate: 2021-06-18
     prerelease: FALSE
-  - title: Seguimiento 1.0
-    text: Se crea el componente transversal de seguimiento a proyectos, en su versión técnica.
+  - title: Seguimiento 1.1
+    text: Se agrega el componente de evaluación.
     eventdate: 2021-12-18
+    prerelease: TRUE
+  - title: Proceso PEO v3.0
+    text: Proceso general PEO con mejoras.
+    eventdate: 2022-01-21
     prerelease: TRUE
