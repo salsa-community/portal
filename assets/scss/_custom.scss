@@ -66,10 +66,11 @@ $accent: #ff4081;
 }
 
 .roadmap {
-  width: 100% !important;
-  height: 100% !important;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   max-width: 100% !important;
-  max-height: 800px !important;
+  max-height: 100% !important;
 }
 
 .timeline-content {
