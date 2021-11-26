@@ -1,0 +1,7 @@
+title: "Procesos"
+subtitle: "Roadmap de procesos CONACYT"
+timeline:
+  - title: Evaluación 2.0
+    text: Recomendador de evaluadores basado  en palabras claves y áreas de conocimiento de un proyecto o un proponente.
+    eventdate: 2021-07-02
+    prerelease: FALSE

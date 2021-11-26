@@ -1,6 +1,6 @@
 <section class="timeline">
   <div class="container">
-    {{range $index, $val := sort .timeline "eventdate" "desc"}} {{$side
+    {{range $index, $val := sort .timeline "eventdate" "asc"}} {{$side
     :=`fadeInRight`}} {{if eq (mod $index 2) 0}} {{$side =`fadeInLeft`}} {{end}}
     {{$prerelease :=``}} {{if .prerelease }} {{$prerelease =`pre-release`}}
     {{end}}

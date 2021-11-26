@@ -1,17 +1,23 @@
 title: "SNI"
-subtitle: "principales acontecimiento en SNI"
+subtitle: "Principales acontecimiento en SNI"
 timeline:
-  - title: "SNI"
-    eventdate: 2021-04-18
-    text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione omnis alias cupiditate saepe atque totam aperiam sed nulla voluptatem recusandae dolor, nostrum excepturi amet in dolores. Alias, ullam."
-  - title: "OTRO SNI"
-    eventdate: 2020-04-18
-    text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione omnis alias cupiditate saepe atque totam aperiam sed nulla voluptatem recusandae dolor, nostrum excepturi amet in dolores. Alias, ullam."
-  - title: "Keycloak"
-    eventdate: 2022-04-18
-    prerelease: true
-    text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione omnis alias cupiditate saepe atque totam aperiam sed nulla voluptatem recusandae dolor, nostrum excepturi amet in dolores. Alias, ullam."
-  - title: "Keycloak"
-    eventdate: 2023-04-18
-    text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ipsa ratione omnis alias cupiditate saepe atque totam aperiam sed nulla voluptatem recusandae dolor, nostrum excepturi amet in dolores. Alias, ullam."
-    prerelease: true
+  - title: Registro
+    text: Sincronizar información con el PRODEP
+    eventdate: 2022-02-12
+    prerelease: TRUE
+  - title: Evaluación
+    text: Perfil de usuario para difentes presentaciones resumen simple resumen de evaluación, entre otros
+    eventdate: 2022-03-31
+    prerelease: TRUE
+  - title: Evaluación
+    text: Optimización del módulo de evaluación
+    eventdate: 2022-04-07
+    prerelease: TRUE
+  - title: Acreditaciones
+    text: Módulo para agregar instituciones desde la vista del operador
+    eventdate: 2022-01-19
+    prerelease: TRUE
+  - title: Cálculo
+    text: Integración del módulo de cálculo
+    eventdate: 2022-04-30
+    prerelease: TRUE

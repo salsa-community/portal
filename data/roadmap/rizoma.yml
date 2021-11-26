@@ -1,5 +1,5 @@
-title: "Roadmap para Rizoma"
-subtitle: "Principales acontecimiento"
+title: "Roadmap de Rizoma"
+subtitle: "Roadmap de Rizoma"
 timeline:
   - title: Diseño visual
     text: Propuesta visual para la plataforma de Rizoma
@@ -32,20 +32,4 @@ timeline:
   - title: Rizoma 3.0
     text: Aplicación de la tecnica de ludificación para el llenado de campos
     eventdate: 2022-06-30
-    prerelease: TRUE
-  - title: Rizoma 4.0
-    text: Aplicación de la tecnica de ludificación para el llenado de campos
-    eventdate: 2022-07-01
-    prerelease: TRUE
-  - title: Rizoma 5.0
-    text: Aplicación de la tecnica de ludificación para el llenado de campos
-    eventdate: 2022-07-02
-    prerelease: TRUE
-  - title: Rizoma 6.0
-    text: Aplicación de la tecnica de ludificación para el llenado de campos
-    eventdate: 2022-07-03
-    prerelease: TRUE
-  - title: Rizoma 7.0
-    text: Aplicación de la tecnica de ludificación para el llenado de campos
-    eventdate: 2022-07-04
     prerelease: TRUE
