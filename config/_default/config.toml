@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://salsa.crip.conacyt.mx/"
+baseURL = "https://salsa-community.github.io/"
 title = "Bigspring Light"
 theme = "bigspring-light"
 # post pagination
