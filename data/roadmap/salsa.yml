@@ -14,7 +14,7 @@ timeline:
     eventdate: 2021-05-07
     prerelease: FALSE
   - title: Formalización 2.0
-    text: Se agrega soporte para formalizar convenios gen
+    text: Se agrega soporte para formalizar convenios genéricos
     eventdate: 2021-03-20
     prerelease: FALSE
   - title: Nómina 1.0
@@ -32,6 +32,10 @@ timeline:
   - title: Nomina 2.0
     text: Se agregan funcionalidades para soportar las operaciones de seguimiento del área de becas sobre las nóminas
     eventdate: 2021-06-18
+    prerelease: FALSE
+  - title: Cripbot 1.0
+    text: Chatbot para el CONACYT
+    eventdate: 2021-06-17
     prerelease: FALSE
   - title: Seguimiento 1.0
     text: Se crea el componente transversal de seguimiento a proyectos, en su versión técnica.

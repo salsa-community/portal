@@ -1,48 +1,87 @@
 title: "Procesos"
 subtitle: "Roadmap de procesos CONACYT"
 timeline:
-timeline:
-  - title: Evaluación 2.0
-    text: Recomendador de evaluadores basado  en palabras claves y áreas de conocimiento de un proyecto o un proponente.
-    eventdate: 2021-07-02
-    prerelease: FALSE
-  - title: Evaluación 2.1
-    text: Se crea componente reutilizable para la recomendación de evaluadores, de tal manera que se pueda integrar en varios sistemas de SALSA. Esta versión no integra interfaz gráfica.
-    eventdate: 2021-08-28
-    prerelease: FALSE
-  - title: Posdoctorado 1.0
-    text: Se libera componente reutilizable para los sistemas de solicitude de posdoctorado, de tal manera que se puedan soportar más tipos de convocatorias. Esta versión no incluye posdoctorado en el extranjero
-    eventdate: 2021-05-07
-    prerelease: FALSE
-  - title: Formalización 2.0
-    text: Se agrega soporte para formalizar convenios gen
-    eventdate: 2021-03-20
-    prerelease: FALSE
-  - title: Nómina 1.0
-    text: Se agrega componente de nómina para posdoctorado
-    eventdate: 2021-02-20
-    prerelease: FALSE
-  - title: Votaciones 1.0
-    text: Plataforma de votaciones para el SNI
-    eventdate: 2021-02-27
-    prerelease: FALSE
-  - title: Votaciones 2.0
-    text: Actualizaciones a la plataforma de votaciones para que acepte nuevo flujo de aprobación
-    eventdate: 2021-03-20
-    prerelease: FALSE
-  - title: Nomina 2.0
-    text: Se agregan funcionalidades para soportar las operaciones de seguimiento del área de becas sobre las nóminas
-    eventdate: 2021-06-18
-    prerelease: FALSE
-  - title: Seguimiento 1.0
-    text: Se crea el componente transversal de seguimiento a proyectos, en su versión técnica.
-    eventdate: 2021-06-18
-    prerelease: FALSE
-  - title: Seguimiento 1.1
-    text: Se agrega el componente de evaluación.
+  - title: Gestionar solicitudes
+    text: Definir, ejecutar y mantener el enfoque de gestión del ciclo de vida de las solicitudes
+    eventdate: 2021-12-15
+    prerelease: TRUE
+  - title: Mantener sistema de archivo
+    text: Primera version. Definir, ejecutar y mantener el enfoque de administración del acervo documental
+    eventdate: 2021-12-11
+    prerelease: TRUE
+  - title: Mantener perfil único de usuario Rizoma
+    text: Definir, ejecutar y mantener el enfoque de administración de la información contenida en el Perfil Único de usuario de Rizoma
+    eventdate: 2022-02-05
+    prerelease: TRUE
+  - title: Mantener registro
+    text: Definir, ejecutar y mantener el enfoque de administración de la información contenida en el Registro Nacional de Instituciones y Empresas Científicas y Tecnológicas
+    eventdate: 2022-02-05
+    prerelease: TRUE
+  - title: Gestionar encuesta
+    text: Definir, ejecutar y mantener el enfoque de gestión del ciclo de vida de las encuestas
+    eventdate: 2021-12-15
+    prerelease: TRUE
+  - title: Definir distribución de becas nacionales
+    text: Proceo
+    eventdate: 2022-06-25
+    prerelease: TRUE
+  - title: Otorgar servicios de ayudantes
+    text: Gestionar la información necesaria para proporcionar servicios a los Ayudantes que apoyan a los Investigadores
+    eventdate: 2022-04-30
+    prerelease: TRUE
+  - title: Otorgar servicios de vigencia
+    text: Gestionar la información necesaria para proporcionar a los Investigadores servicios relacionados con la vigencia de sus distinciones
+    eventdate: 2022-04-30
+    prerelease: TRUE
+  - title: Registrar solicitud en convocatoria
+    text: Recolectar la información requerida de los candidatos conforme a los términos de las convocatorias para concursar por un apoyo
     eventdate: 2021-12-18
     prerelease: TRUE
-  - title: Proceso PEO v3.0
-    text: Proceso general PEO con mejoras.
-    eventdate: 2022-01-21
+  - title: Realizar seguimiento técnico y financiero del proyecto
+    text: Verificar y validar el cumplimiento de los compromisos establecidos mediante convenios como parte de una convocatoria
+    eventdate: 2021-12-18
+    prerelease: TRUE
+  - title: Prevenir incidentes
+    text: Identificar las causas de incidentes seleccionados y proponer acciones de mejora para su mitigación o resolución.
+    eventdate: 2021-12-17
+    prerelease: TRUE
+  - title: Gestionar y planear proyectos
+    text: Definir, ejecutar y mantener un enfoque de planeación, monitoreo y control de la ejecucion de los proyectos
+    eventdate: 2021-12-23
+    prerelease: TRUE
+  - title: Gestionar requerimientos
+    text: Identificar, especificar, gestionar, y asegurar la calidad de los requerimientos de sistemas
+    eventdate: 2021-12-10
+    prerelease: TRUE
+  - title: Gestionar solución técnica
+    text: "Definir e implementar un enfoque para generar y mantener productos, componentes, modelos o ciclos de vida conforme  a los requrimientos especificados,\n"
+    eventdate: 2022-03-18
+    prerelease: TRUE
+  - title: Gestionar procesos de mejora
+    text: Definir, implantar y mantener los activos de procesos que especifican y soportan la forma de trabajo de proyectos y servicios
+    eventdate: 2021-12-10
+    prerelease: TRUE
+  - title: Gestionar talento
+    text: Definir, implantar y mantener las competencias que soportan la forma de trabajo de los proyectos o servicios
+    eventdate: 2021-12-17
+    prerelease: TRUE
+  - title: Gestionar innovación
+    text: Definir, implemtar y mantener un enfoque de gestión de la innovación en el ámbito de la CRIP
+    eventdate: 2022-03-18
+    prerelease: TRUE
+  - title: PEO Alto nivel
+    text: Flujo de valor PEO
+    eventdate: 2022-01-22
+    prerelease: TRUE
+  - title: SNI General
+    text: Flujo de valor SNI
+    eventdate: 2022-02-25
+    prerelease: TRUE
+  - title: BECAS General
+    text: Flujo principal de becas
+    eventdate: 2022-03-18
+    prerelease: TRUE
+  - title: Atención de solicitud de información
+    text: Recibir y atender solicitudes de información relacionadas con Transparencia
+    eventdate: 2021-12-03
     prerelease: TRUE
