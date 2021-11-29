@@ -19,7 +19,7 @@ timeline:
     prerelease: FALSE
   - title: Nómina 1.0
     text: Se agrega componente de nómina para posdoctorado
-    eventdate: 2021-02-20
+    eventdate: 2021-01-15
     prerelease: FALSE
   - title: Votaciones 1.0
     text: Plataforma de votaciones para el SNI
@@ -48,4 +48,69 @@ timeline:
   - title: Proceso PEO v3.0
     text: Proceso general PEO con mejoras.
     eventdate: 2022-01-21
+    prerelease: TRUE
+  - title: Gestión de Código
+    text: Nos migramos a Gitlab, herramienta para la gestión de código
+    eventdate: 2021-01-29
+    prerelease: FALSE
+    link: https://scm.crip.conacyt.mx/
+  - title: Calidad de código
+    text: Herramienta Sonarqube, para el análisis estático de código
+    link: https://reviews.crip.conacyt.mx
+    eventdate: 2021-02-12
+    prerelease: FALSE
+  - title: Documentos
+    text: Nexcloud, como herramienta para la gestión de documentos de los equipos de trabajo
+    eventdate: 2021-02-26
+    link: https://dms.crip.conacyt.mx/apps/files/?dir=/&fileid=514
+    prerelease: FALSE
+    link: https://dms.crip.conacyt.mx/
+  - title: Radar tecnológico
+    text: Primera versión del radar tecnológico del CONACYT
+    eventdate: 2021-03-05
+    link: https://salsa.crip.conacyt.mx/habilitadores/tecnologia/
+    prerelease: FALSE
+  - title: Contenedores
+    text: Adopción de la herramienta Harbor para la administración de contenedores y servicios
+    eventdate: 2021-04-16
+    prerelease: FALSE
+  - title: Tutoriales
+    text: Herramienta interactiva para para publicar tutoriales para la comunidad de desarrollo de software de la CRIP
+    eventdate: 2021-05-28
+    link: https://docs.crip.conacyt.mx/
+    prerelease: FALSE
+  - title: Automatización de despliegues
+    text: Publicación de la herramienta Drone para la automatización de despliegues a ambientes de desarrollo, calidad y producción
+    eventdate: 2021-06-25
+    link: https://cis.crip.conacyt.mx/
+    prerelease: FALSE
+  - title: Repositorio de componentes
+    text: Adopción de la herramienta Nexus para la administración de componentes reutilizables
+    eventdate: 2021-07-31
+    link: https://artifacts.crip.conacyt.mx
+    prerelease: FALSE
+  - title: Gestión de APIs
+    text: Herramienta para la administración de APIs internas y externas del CONACYT
+    eventdate: 2021-08-27
+    link: https://api.test.crip.conacyt.mx/
+    prerelease: FALSE
+  - title: Gestión de proyectos
+    text: Herramienta Taiga para la gestión de proyectos de desarrollo de softwrae de la CRIP
+    eventdate: 2021-09-30
+    link: https://project.crip.conacyt.mx/
+    prerelease: FALSE
+  - title: Portal SALSA
+    text: Primera versión del portal de SALSA para la comunicación interna y con los equipos
+    eventdate: 2021-10-22
+    link: https://salsa.crip.conacyt.mx/
+    prerelease: FALSE
+  - title: Chat organizacional
+    text: Instalación de Rocket Chat para las comunicaciones internas de la CRIP
+    eventdate: 2021-11-05
+    link: https://chat.crip.conacyt.mx/home
+    prerelease: FALSE
+  - title: Foro SALSA
+    text: Foro de discusión interno con los colaboradores de la CRIP
+    eventdate: 2021-12-17
+    link: https://forum.crip.conacyt.mx/
     prerelease: TRUE
