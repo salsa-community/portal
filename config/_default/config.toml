@@ -1,9 +1,9 @@
 ######################## default configuration ####################
-baseURL = "https://salsa-community.github.io/"
-title = "Bigspring Light"
+baseURL = "https://salsa.crip.conacyt.mx/"
+title = "Development enviroment"
 theme = "bigspring-light"
 # post pagination
-paginate = "3"
+paginate = "10"
 # post excerpt
 summaryLength = "15"
 # disqus short name
